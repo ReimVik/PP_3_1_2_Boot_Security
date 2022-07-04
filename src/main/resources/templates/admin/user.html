@@ -5,11 +5,11 @@
   <title>User Page</title>
 </head>
 <body>
-<h2>Добро пожаловать на страницу пользователя <span th:text="${user.getName()}">name</span>!</h2>
+<h2>Добро пожаловать на страницу пользователя <span th:text="${user.getId()}"></span>!</h2>
 <br>
 <div>
-  Пользователя зовут <span th:text="${user.getName()}"></span>
-  <span th:text="${user.getPassword()()}"></span><br>
+  Пользователя зовут <span th:text="${user.getName()}"></span><br>
+  Пароль пользователя <span th:text="${user.getPassword()}"></span><br>
   Возраст пользователя составляет <span th:text="${user.getAge()}"></span>.<br>
   Электронная почта пользователя - <span th:text="${user.getEmail()}"></span>.<br>
 </div>

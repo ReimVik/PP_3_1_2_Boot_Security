@@ -71,7 +71,7 @@ public class UserServiceImp implements UserService {
         userRepository.deleteById(id);
     }
 
-    public String findByName(String name) {
-        return userRepository.findByNameIgnoreCase(name).getName();
+    public User findByName(String name) {
+        return userRepository.findByNameIgnoreCase(name);
     }
 }
