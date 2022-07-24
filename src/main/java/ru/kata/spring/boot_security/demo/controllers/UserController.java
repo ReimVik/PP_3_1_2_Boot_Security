@@ -1,6 +1,4 @@
-package ru.kata.spring.boot_security.demo.Controllers;
-
-import java.util.List;
+package ru.kata.spring.boot_security.demo.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
